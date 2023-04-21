@@ -1,0 +1,11 @@
+.top {
+  background: url(../../img/IntroBg.jpg) no-repeat;
+  background-size: cover;
+
+  .topChild {
+    max-width: 1060px;
+    min-width: 300px;
+    min-height: 120vh;
+    margin: 0 auto;
+  }
+}

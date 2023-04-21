@@ -1,0 +1,55 @@
+.locations {
+  width: 100%;
+  margin-top: 70px;
+  height: 50px;
+
+  .locationsWrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 60px;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .locationsPic {
+      margin-left: 50px;
+      width: 400px;
+
+      .pic{
+        border-radius: 15px;
+        opacity: 0.9;
+      }
+    }
+
+    .locationsPicTwo {
+      width: 400px;
+      margin-left: 60px;
+
+      .picTwo {
+        border-radius: 15px;
+        opacity: 0.9;
+      }
+    }
+
+    .locationInfo {
+      padding: 20px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+
+      .locationTitle {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 40px;
+        color: #fff;
+        margin-bottom: 35px;
+      }
+
+      .locationDec {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #fff;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}
